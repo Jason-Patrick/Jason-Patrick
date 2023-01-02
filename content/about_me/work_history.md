@@ -2,7 +2,7 @@
 title: /about_me/work_history.txt
 date: 2017-03-23
 publishdate: 2017-03-24
-draft: true
+draft: false
 ---
 
 [ ] SAS Institute // (2020.10 -> undefined)

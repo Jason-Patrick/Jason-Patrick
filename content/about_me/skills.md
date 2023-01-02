@@ -2,7 +2,7 @@
 title: /about_me/skills.json
 date: 2017-03-23
 publishdate: 2017-03-24
-draft: true
+draft: false
 ---
 
 ```

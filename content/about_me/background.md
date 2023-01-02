@@ -2,7 +2,7 @@
 title: /about_me/background.txt
 date: 2017-03-23
 publishdate: 2017-03-24
-draft: true
+draft: false
 ---
 
 The name you probably will come across first in most places for me is Jason (my first name), however I prefer my middle name, Patrick, exclusively.
