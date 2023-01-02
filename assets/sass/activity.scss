@@ -1,0 +1,40 @@
+@import "default.scss";
+
+:root {
+    --cursor-visibility: hidden;
+}
+
+body {
+    // I prefer only the left and right margins for the post.
+    align-items: unset;
+
+    overflow-y: scroll;
+}
+
+#content {
+    max-width: 80vmin;
+}
+
+pre {
+    white-space: pre;
+}
+
+pre:not(:has(code)) {
+    overflow-x: visible;
+}
+
+
+#activity-title, #activity-content {
+    &:after {
+        @extend .cursor;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

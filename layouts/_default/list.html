@@ -1,0 +1,20 @@
+{{ define "main" }}
+        <main id="main" style="color: #bbb">
+          <h1>{{ index .Aliases 0 }}</h1>
+          <div style="color: #bbb">
+            {{ .Content }}
+          </div>
+          <ul>
+            {{ range .Pages }}
+            <li style="list-style-type: '-->'; padding-inline-start: 1rem;">
+              <h2>
+                <a href="{{ .RelPermalink }}">
+
+                  {{ .Title }}
+                </a>
+              </h2>
+            </li>
+            {{ end }}
+          </ul>
+        </main>
+    {{ end }}
